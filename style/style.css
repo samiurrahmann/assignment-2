@@ -347,12 +347,13 @@ td{
 
 .input-section{
     height: 386px;
-    width: 577px;
+    width: 590px;
     justify-items: center;
     align-content: center;
     margin: 0px;
     padding: 0px;
-    overflow: hidden;    
+    overflow: hidden;   
+    
 }
 
 
@@ -381,10 +382,6 @@ td{
     font-size: 13px;
     padding-left: 13px;
     
-   
-    
-   
-    
 }
 .input-grid{
     width: 272.5px;
@@ -395,6 +392,7 @@ td{
 .input-last{
     width: 587px;
     height: 48px;
+    
     
     
 }
