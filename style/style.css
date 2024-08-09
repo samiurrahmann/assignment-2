@@ -1,0 +1,490 @@
+.white{
+    color: #FFFFFF;
+}
+.orange{
+    color: #E6533C;
+}
+.descripsion{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+body{
+    background-color: #000000;
+    
+}
+
+/* Miama Font */
+@font-face {
+    font-family: myFont;
+    src: url(./miama/Miama.ttf);
+   
+
+}
+
+.shape{
+   font-family: myFont;
+   
+   height: 235px;
+   font-size: 135px;
+   font-weight: 400;
+  }
+/* button styles  */
+
+.local-btn{
+    background-color: #E6533C;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 46.5px 16px 46.5px;
+    border-radius: 42px;
+    border: none;
+}
+.btn{
+    background: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 16px 46.5px 16px 46.5px;
+    border-radius: 42px;
+    border: 1px solid #FFFFFF ;
+
+}
+
+
+header{
+    background:linear-gradient(#111111, #202020fa , #111111);   
+    width: 1440;
+    height: 715;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+    
+    
+    
+  
+}
+
+/* nav styles */
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 20px 150px;  
+   
+}
+
+.nav-title{
+    font-weight: 900;
+    color: #E6533C;
+    font-size: 36px;
+    width: 132;
+    height: 43;
+    font-style: italic;
+      
+}
+
+.red-box{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
+}
+
+
+nav ul li{
+      list-style: none;
+      margin-right:  47px;
+      padding: 12px 0px 12px ;
+}
+nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 68px;
+    height: 22px;
+    padding: 12px auto 12px;
+      
+    
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    border: 1px solid ;
+    border-color:rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    width: 418px;
+    padding-left: 5px;
+     
+}
+.nav-home{
+    background-color: #E6533C;
+    border-radius: 20px;
+    width: 82px;
+    height: 18px;
+    color: #FFFFFF;
+    padding: 11px 24px 11px 24px;
+    
+}
+
+
+/* header-styles */
+.hero-parent{
+    display: flex;
+    gap: 40px;
+    
+    
+    
+}
+.hero-child{
+    padding: 14px  24px 14px 24px;   
+    margin-left:113px;
+    
+}
+.hero-title{
+    font-size: 78px;
+    text-align: left;
+    line-height: 0.9;
+    margin-bottom: 28px;
+
+    
+    
+}
+.hero-descripsion{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    margin-bottom: 28px;
+}
+.hero-image{
+    height: 580px;
+    width: 349px;
+    padding-left: 87.5px;
+
+.hero-button{
+    gap: 15px;
+}
+
+}
+
+/* header style  */
+.hero-cards{
+   
+   position: relative;
+   
+}
+.hero-card-one{
+    background-color:  rgba(255, 255, 255, 0.1);
+    
+    
+    width: 170px;
+    height: 80px;   
+    border-radius: 12px;
+    position: absolute;
+    top: 116px;
+    right: -75px;
+    padding-left: 5%;
+    padding-bottom: 10%;
+    
+   
+
+  
+}
+.hero-card-two{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 170px;
+    height: 98px;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 70px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 10px;
+    padding-left: 18px;
+}
+
+.hero-card-title{
+    color: #FFFFFF;
+    font-size: 40px;
+    height: 15px;
+    width: 20px;
+    font-weight:bold;
+   
+    
+    
+    
+
+}
+
+
+
+
+/* main styles */
+
+.Habits{
+    background-color: #000000;
+    width: 1140;
+    height: 452;
+   
+   
+}
+
+
+.Habits-section-intro{
+    justify-content: center;
+    text-align: center;
+}
+.Habits-title{
+
+}
+
+.Habits-description{
+    text-align: center;
+   
+}
+
+/* Habits-cards-perent style */
+
+.Habits-cards-perent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+    
+
+}
+.habit-cards-title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600px;
+    width: 44;
+    height: 22;
+
+}
+.habit-cards-descripsion{
+    text-align: center;
+    font-size: 14px;
+}
+.habits-card-images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 3px solid rgb(31, 31, 31);
+   
+
+}
+/* run section style */
+.run-perent{
+   margin-top: 100px;
+}
+.Run{
+    background-color: rgba(34, 34, 34, 1);
+    display: flex;
+    height: 371px;
+    width: 1060px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 18px;
+    gap: 165px;
+    
+   
+}
+.Run-title{
+    font-size: 48px;
+    
+}
+.run-image{
+   
+    height: 312px;
+    width: 366px;   
+    padding: 30px 32px 29px ;
+    border-radius: 12%;
+}
+.text-part{
+    text-align: left;
+    padding: 41px 0 40px 54px ;
+    
+}
+/* calculator styles */
+.Calculator{
+    height: 487px;
+    width: 1286px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+           
+.calculator-intro{
+    text-align: center;
+    
+}
+.CI-title{
+    
+}
+table, th, td {
+    border: 1px solid  rgba(255, 255, 255, 0.5);
+
+  }
+table{
+    width: 310px;
+    height: 216px;
+    border-spacing: 0px ;
+    
+    
+} 
+th, td{
+    padding: 15px;
+    
+    
+} 
+td{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.input-section{
+    height: 386px;
+    width: 577px;
+    justify-items: center;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;    
+}
+
+
+.calculator-base{
+    background-color: rgba(34, 34, 34, 1) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    
+}
+.perent-input{
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr);
+    gap: 8px;
+    height: 132px;
+   
+    
+   
+}
+.input-text{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    border: none;
+    font-size: 13px;
+    padding-left: 13px;
+    
+   
+    
+   
+    
+}
+.input-grid{
+    width: 272.5px;
+    height: 48px;
+    margin-bottom: 12px;
+}
+
+.input-last{
+    width: 587px;
+    height: 48px;
+    
+    
+}
+.input-title{
+    font-size: 28px;
+    font-weight: bolder;
+
+}
+
+.input-btn{
+    padding-top: 14px;
+}
+
+/* team styles */
+
+.team-section{
+    
+}
+.team-intro{
+    text-align: center;
+}
+
+
+/* card box styles  */
+.card-perant{
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    gap: 20px;
+    border-radius: 20px;
+    background-color: #111111;
+    justify-content: center;
+    align-items: center;
+    width: 1060px;
+    height: 604px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-box  > img {
+  width: 326.67px;
+  height: 272px;
+  /* display: block; */
+  border-radius: 20px;
+  
+}
+.card-text{
+  position: absolute;
+  padding-top: 170px;
+  padding-left: 16px;
+ 
+ 
+  
+}
+.card-title{
+  
+    
+}
+footer{
+    background-color: rgba(34, 34, 34, 1) ;
+    height: 349px;
+    margin-top: 44px;
+    
+}
+.foot-perent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 102px;
+}
+
+.footer-intro{
+    width: 443px;
+    height: 175px;
+}
+.get-child{
+    width: 141px;
+    height: 256px;
+}
+.gets{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 82px;
+}
+.footer-get-1{
+    
+}
+.foot-right{
+    text-align: center;
+    font-size: 100%;
+    margin-top: 25px;
+}
+hr{
+    background-color: rgba(255, 255, 255, 0.5);
+}
