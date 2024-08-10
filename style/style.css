@@ -52,7 +52,7 @@ body{
 
 
 header{
-    background:linear-gradient(#111111, #202020fa , #111111);   
+    background:linear-gradient(#111111, #202020fa , #111111);
     width: 1440;
     height: 715;
     margin: 0px;
@@ -174,10 +174,8 @@ nav ul {
 }
 .hero-card-one{
     background-color:  rgba(255, 255, 255, 0.1);
-    
-    
     width: 170px;
-    height: 80px;   
+    height: 60px;   
     border-radius: 12px;
     position: absolute;
     top: 116px;
