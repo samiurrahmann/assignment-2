@@ -1,9 +1,7 @@
 .white{
     color: #FFFFFF;
 }
-.orange{
-    color: #E6533C;
-}
+
 .descripsion{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
@@ -397,9 +395,6 @@ td{
 
 /* team styles */
 
-.team-section{
-    
-}
 .team-intro{
     text-align: center;
 }
@@ -430,14 +425,9 @@ td{
   position: absolute;
   padding-top: 170px;
   padding-left: 16px;
- 
- 
   
 }
-.card-title{
-  
-    
-}
+
 footer{
     background-color: rgba(34, 34, 34, 1) ;
     height: 349px;
@@ -454,6 +444,7 @@ footer{
 .footer-intro{
     width: 443px;
     height: 175px;
+    margin-bottom: 100px;
 }
 .get-child{
     width: 141px;
@@ -464,9 +455,7 @@ footer{
     font-size: 18px;
     font-weight: 82px;
 }
-.footer-get-1{
-    
-}
+
 .foot-right{
     text-align: center;
     font-size: 100%;
@@ -474,4 +463,11 @@ footer{
 }
 hr{
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-title{
+    color: #E6533C;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bolder;
 }
