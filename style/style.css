@@ -471,3 +471,40 @@ hr{
     font-style: italic;
     font-weight: bolder;
 }
+
+
+.menu-icon{
+    display: none;
+}
+
+@media screen and (max-width:576px)  {
+     .hide-on-mobile{
+        display: none;
+        
+     }
+
+    nav ul {
+        border: none;
+    }
+    nav{
+
+        gap: 50%;
+       
+        justify-content: center;
+        align-items: center;
+
+    }
+    .nav-title{
+        margin-right: 80%;
+    }
+     .menu-icon{
+        display: contents;
+     }
+     
+     .hero-parent,
+     .Habits-cards-perent
+     {
+        flex-direction: column;
+    }
+    
+}
