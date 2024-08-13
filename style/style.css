@@ -417,7 +417,7 @@ td{
 .card-box  > img {
   width: 326.67px;
   height: 272px;
-  /* display: block; */
+  
   border-radius: 20px;
   
 }
@@ -615,17 +615,21 @@ hr{
 
 
 /* team-section */
-.team-section{
-    padding-top: 100%;
+.team-section{ 
+    margin-top: 110%;  
 }
 .card-perant{
-    display: none;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1, 0.1fr);
     width: 353px;
     height: 1188px;
+    
 }
-.team-intro{
-
+.card-none{
+    display: none;
+}
+.card-perant{
+    padding-top: 10px;
 }
     
 
