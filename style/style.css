@@ -638,6 +638,7 @@ footer{
 .foot-perent{
     display: flex;
     flex-direction: column;
+    gap: 40px;
    
 } 
 .footer-intro{
@@ -646,8 +647,6 @@ footer{
 .foot-des{
     width: 300px;
     
+}
 
-
-
-    
 }
