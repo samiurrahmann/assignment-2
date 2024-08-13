@@ -648,5 +648,7 @@ footer{
     width: 300px;
     
 }
-
+.mobile-left{
+    margin-right: 45%;
+}
 }
