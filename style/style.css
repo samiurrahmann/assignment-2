@@ -543,6 +543,31 @@ hr{
     margin-bottom: 40px;
     
   }
+  .Run{
+    
+    width: 315px;
+    height: 531px;
+    display: flex;
+    flex-direction: column;
+  }
+  .run-image{
+   width: 287px;
+   height: 170px;
+  
+  }
+  .text-part{
+    width: 287px;
+    height: 64px;
+    margin-right: 33px;
+    
+  }
+  .Run-title{
+    font-size: 32px;
+    width: 277px;
+  }
+  .extra-btn{
+    width: 277px;
+  }
 
     
 }
