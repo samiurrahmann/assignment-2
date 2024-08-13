@@ -519,7 +519,8 @@ hr{
      
      .hero-parent,
      .Habits-cards-perent
-     {
+      {
+        display: flex;
         flex-direction: column;
     }
     .hero-child{
@@ -568,6 +569,61 @@ hr{
   .extra-btn{
     width: 277px;
   }
+  /* Calculator style  */
+  .calculator-base{
+    display: flex;
+    flex-direction: column;
+    height: 772px;
+    width: 359px;
+    
+    
+  }
+.calculator-intro{
+    text-align: left;
+    padding-left: 20px;
+
+}
+.calculator-parent{
+    width:310px ;
+    height: 210px;
+   margin-right: auto;
+   margin-bottom: auto;
+   padding-left: 20px;
+}
+.input-section{
+    width: 354px;
+    height: 395px;  
+}
+
+/* input  style  */
+.input-section{
+    width: 354px;
+    height: 395px;
+}
+.input-grid{
+    width: 120px;
+    
+}
+.input-last{
+    width: 315px;
+}
+
+
+/* team-section */
+.team-section{
+    padding-top: 100%;
+}
+.card-perant{
+    display: none;
+    flex-direction: column;
+    width: 353px;
+    height: 1188px;
+}
+.team-intro{
+
+}
+    
+
 
     
 }
