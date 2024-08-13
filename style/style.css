@@ -532,5 +532,17 @@ hr{
         display: flex;   
     }
 
+    .hero-image{
+        padding-left: 35px;
+    }
+    .hero-card-one{
+       right: 10px;
+       top: 10px; 
+    }
+  .Habits-section-intro{
+    margin-bottom: 40px;
+    
+  }
+
     
 }
