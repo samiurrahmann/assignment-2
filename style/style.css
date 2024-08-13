@@ -478,7 +478,23 @@ hr{
 }
 
 @media screen and (max-width:576px)  {
-     .hide-on-mobile{
+     .local-btn{
+        padding: 2px 2px 2px 2px ;
+        height: 54px;
+        width: 159px;
+        
+     }
+     .btn{
+        padding: 6px 6px 6px 6px;
+        height: 54px;
+        width: 159px;
+     }
+
+     .hero-button{
+        gap: 6px;
+     }
+    
+    .hide-on-mobile{
         display: none;
         
      }
@@ -506,5 +522,15 @@ hr{
      {
         flex-direction: column;
     }
+    .hero-child{
+        margin: 0;
+    }
+    .hero-descripsion{
+       text-align: left;
+    }
+    .hero-button{
+        display: flex;   
+    }
+
     
 }
