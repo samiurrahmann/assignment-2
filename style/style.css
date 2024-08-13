@@ -631,7 +631,22 @@ hr{
 .card-perant{
     padding-top: 10px;
 }
+footer{
+    width: 353px;
+    height: 986px;
+}
+.foot-perent{
+    display: flex;
+    flex-direction: column;
+   
+} 
+.footer-intro{
+    margin-left: 40%;
+}  
+.foot-des{
+    width: 300px;
     
+
 
 
     
